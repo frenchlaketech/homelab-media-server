@@ -42,7 +42,7 @@ A self-hosted media stack running on a single small-form-factor PC with Proxmox.
 | CT | Name | Resources | Purpose |
 |----|------|-----------|---------|
 | 100 | `ArrStack` | 4 cores, 8GB RAM, 32GB disk | Docker host for the arr apps, download client and VPN |
-| — | Jellyfin | LXC | Media server, read-only `/data/media` mount, iGPU passthrough |
+| 101 | Jellyfin | LXC | Media server, read-only `/data/media` mount, iGPU passthrough |
 
 ### ArrStack (CT 100)
 
