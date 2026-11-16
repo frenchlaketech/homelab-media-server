@@ -111,3 +111,4 @@ Jellyfin (read-only, hardware transcoding) ──► playback
 - [x] Release size limits set for movies and series
 - [ ] AdGuard DNS
 - [ ] Tailscale container for remote access
+- [ ] Email when updates are Available?
