@@ -105,6 +105,7 @@ Jellyfin (read-only, hardware transcoding) ──► playback
 - [x] Seerr request system
 - [x] Existing library copied into `/data`
 - [ ] Fix wrong names/covers for existing library items in Jellyfin
-- [ ] Finish Prowlarr indexers (some blocked by Cloudflare)
+- [x] Finish Prowlarr indexers (some blocked by Cloudflare)
 - [x] Release size limits set for movies and series
 - [ ] AdGuard DNS
+- [ ] Set up weekly Auto updates with cron 
