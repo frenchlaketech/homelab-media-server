@@ -110,5 +110,4 @@ Jellyfin (read-only, hardware transcoding) ──► playback
 - [x] Finish Prowlarr indexers (some blocked by Cloudflare)
 - [x] Release size limits set for movies and series
 - [ ] AdGuard DNS
-- [ ] Set up weekly Auto updates with cron
 - [ ] Tailscale container for remote access
