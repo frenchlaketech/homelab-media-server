@@ -112,3 +112,4 @@ Jellyfin (read-only, hardware transcoding) ──► playback
 - [ ] AdGuard DNS
 - [ ] Tailscale container for remote access
 - [ ] Email when updates are Available?
+- [ ] Reverse proxy for remote viewing of Media
