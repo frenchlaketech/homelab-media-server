@@ -1,3 +1,4 @@
+
 # Homelab
 
 A self-hosted media stack running on a single small-form-factor PC with Proxmox. Everything runs in LXC containers, downloads are routed through a VPN, and media is stored on a mirrored ZFS pool.
@@ -43,6 +44,7 @@ A self-hosted media stack running on a single small-form-factor PC with Proxmox.
 |----|------|-----------|---------|
 | 100 | `ArrStack` | 4 cores, 8GB RAM, 32GB disk | Docker host for the arr apps, download client and VPN |
 | 101 | Jellyfin | LXC | Media server, read-only `/data/media` mount, iGPU passthrough |
+| *** | Tailscale | LXC | VPN and remote access to server |
 
 ### ArrStack (CT 100)
 
@@ -108,4 +110,5 @@ Jellyfin (read-only, hardware transcoding) ──► playback
 - [x] Finish Prowlarr indexers (some blocked by Cloudflare)
 - [x] Release size limits set for movies and series
 - [ ] AdGuard DNS
-- [ ] Set up weekly Auto updates with cron 
+- [ ] Set up weekly Auto updates with cron
+- [ ] Tailscale container for remote access
